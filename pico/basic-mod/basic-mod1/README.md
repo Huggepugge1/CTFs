@@ -7,6 +7,8 @@ In the description it says "Take each number mod 37 and map it to the following 
 I created a python script to do all of that for me:
 
 ```python
+#!/usr/bin/env python3
+
 maps = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"]
 
 with open("message.txt", "r") as file:
@@ -17,4 +19,4 @@ with open("message.txt", "r") as file:
     print(f"picoCTF{{{''.join(maps[c] for c in data)}}}")
 ```
 
-That gives the flag: `picoCTF{R0UND_N_R0UND_B6B25531`
+That gives the flag: ``
