@@ -2,8 +2,8 @@
 
 This time, the challenge promptis a little different: "Take each number mod 41 and find the modular inverse for the result. Then map to the following character set: 1-26 are the alphabet, 27-36 are the decimal digits, and 37 is an underscore."
 
-The catch is that we cannot just take each input mod 41 and print it, we have to find the inverse module (B). We find B by the calculating the equation `A * B mod 41 = 1` where A is every number in the input.
-link to inverse modulo tutorial: https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses
+The catch is that we cannot just take each input mod 41 and print it, we have to find the inverse module (B). We find B by the calculating the equation `A * B mod 41 = 1` where A is every number in the input. \n
+Link to inverse modulo tutorial: https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses
 
 I created a python script to do this:
 
