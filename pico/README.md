@@ -1,4 +1,3 @@
 # picoCTF
 
-link to picoGym:
-[https://play.picoctf.org/practice]
+link to picoGym: https://play.picoctf.org/practice
