@@ -1,0 +1,88 @@
+Received: from 10.197.33.204
+ by atlas325.free.mail.bf1.yahoo.com with HTTPS; Fri, 15 Apr 2022 06:03:02 +0000
+Return-Path: <crewctff@gmail.com>
+X-Originating-Ip: [209.85.221.45]
+Received-SPF: pass (domain of gmail.com designates 209.85.221.45 as permitted sender)
+Authentication-Results: atlas325.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@gmail.com header.s=20210112;
+ spf=pass smtp.mailfrom=gmail.com;
+ dmarc=pass(p=NONE,sp=QUARANTINE) header.from=gmail.com;
+X-Apparently-To: zheroboy2015@yahoo.com; Fri, 15 Apr 2022 06:03:02 +0000
+X-YMailISG: AtcSFt4WLDvnVAXSBndI5kgeaRS7kUauCC9P90z66ivnZX38
+ AAd9VsYLEjOMS9VDpioxmvG3delsjdiLfpbSlTyiywB9WRrdWioUj4VkOMRf
+ iOaiiYaIpWlxcucl5fm3BycVjLM2Kbf.pJtj.aTx47.K3eXbSFcQHgRi7owr
+ d4vT6KD4ZTazQTZJ8TA7PnzUUtCe8Wvp0aQhmq7MR.d8srvbXZnqSPGkxRtV
+ v8UhyKuqY8D.zHv2OGMazpBUkxg8tTDbNCiP7ToJXM1qGW6gT7.E9QykJSMx
+ JQ8csyT0GdoMiBIhzbtH9XU8l0EJNiO4HBvEXU5zbh1zFnrvoqELB32sZE1K
+ tEFBTIYOMWO5P27LpHXef1.BLRS631qZJkNysOLun1Fq9A9AZmXtw9qiIZHm
+ tRB8zVICPrNyD0NO27zDXj7yITdzbsQ7ZWk7BHId2s2hlgCrPP19PQpisz6t
+ suvmYst2oaFC6x4sQz5_o7p.4OcuHBuDbyHlBzUf7YCHm6V8WipmFk6zFijz
+ Qgxg1liR9IB3BPdyppH3uRloYefvjf9UOTYM1kEtYjtB28uCGJmz6s5VBQ8c
+ Q8gxpd2r2gMQmy.brIg45uWMNUL5dWxb3JN4e_LXk3wC.bLuSM_nbb3sAVHo
+ Ykj80IzMYU0ClHqcWTJGBGHfg1CxVCIwLdm5Ubj1IyyzJ9zpccUl1YDEvt80
+ IAHAHQoG3czelTB5wLIZ4aiFE_Z1SWq_iiuv8flngca9OWydTfomke9ab9x3
+ nPUwJLcq_s3xR5J.dOa32KKgFpILQIppS_ioyXjBZIfLwzR3aH3AuWR.8XS2
+ dv9G6uEgxiYX.uLIO5YZ0XpotZub0334GU.QPKu9.52Qgzs29oBRYHLzh0n4
+ VObYRtCBRxch7hKVc44ctXozTEnJzIub3bH.CxWcxsDQ59IXkWxthxYQH65v
+ 8fRXDTjzWOc0Fr1zVvsEvkpBqLn8uvDnk5Hb5lYvaqVJl8wPOyEIfQ43vPRE
+ vkBmKl4g7Q.utP.DoTzwi7pjD4_HJU97LyDFeGStWmVZj8wlUxtFG9ocqHLe
+ U73GFPnmFrCwTocsuCqRusHVXfsaOFs2ZEmQbC_MoIViLjC17Cd02YUMX0Bf
+ bSxm0OuMzTX4vZaYil8YwuTamw9bycJRFcuznD7HhvNTo2_pouToOlg6WN3r
+ of70LbhHmyYXpuRmgowbtgwtW0EUhpXWzqSYiHjGtJL4pfNjNaR1tyjrJcfg
+ edPqlOX6ezOyeEEgckML
+Received: from 209.85.221.45 (EHLO mail-wr1-f45.google.com)
+ by 10.197.33.204 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Fri, 15 Apr 2022 06:03:02 +0000
+Received: by mail-wr1-f45.google.com with SMTP id u3so9536261wrg.3
+        for <zheroboy2015@yahoo.com>; Thu, 14 Apr 2022 23:03:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=5AqaoLYxMopB/cECaLwYX3ZR0XSAPW38Fwpy5WHeO2M=;
+        b=qZ7l51670rGpqY+CG1NMhAuNgg7cSSGDoaF9GImdoNnbe3/p0XFEp4x4MSg6HUS2j3
+         D5UE2n1LUcn1VszkoAbec/NF3r5YvFpWhe8g5MreOSb2smx+4G4o1gcGGUR7PYIg9tqA
+         03lwE31MbnEQnqUCMAxhXKqaPzKsRu8cn5olLDgz4MIZavA7/UI4XWLETxZTgQfietEA
+         MbrlZvu4kyOailtqGgTFEnwZbZYl6h4RNLhEGf2xv2zs7mCMalweSO6eL8HWw+ghtU+/
+         cFRZanQ+4wW9TNbsjs/0q3Bg13N/X0Ffyueq4spbwd5AToaFbtIkavEJ8EK0T0u2DDU3
+         EtQg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=5AqaoLYxMopB/cECaLwYX3ZR0XSAPW38Fwpy5WHeO2M=;
+        b=OAWkBG2AF0oHjxRUBhjC4WINNTTyHsgPemGMm2Gs2K2QTLfU8ZQuuXB1h6aSIh+Hk2
+         x2ajfhKnutXb0jL+ppO15i9AOo8SmxFIc0rGi9psMiz2xv9Ntv5+2LKoOxLtHcKjyiUS
+         9KxevBp/osCtmmFB6BhaeIWeKTtvrUscstMarGBxPRMIwre+xPamGKH5tdxH6R1Ki7Ea
+         QIr52mV6aAqqLY4ppuZbo84IHUIthz24Yd4T/IDR+KLkzY35eIN7L/hle3NbOfsUDo83
+         YoLFAlrNljd6aL07AaWbBGFs/8SWXk6yjRgDR6qEVDwDTGb5UVF4HtemOoaDosDqhU2/
+         axzg==
+X-Google-Smtp-Source: ABdhPJyaUwECUfiVnHLMvCVoOGSDlrFjphDMOXwSo8pSUztrUcs+gK7lHOKWwReyKsHGHeQG13Psbc5aQ2asjRuWTvE=
+X-Received: by 2002:a05:6000:1564:b0:20a:7727:27b0 with SMTP id
+ 4-20020a056000156400b0020a772727b0mr3227204wrz.290.1650002581532; Thu, 14 Apr
+ 2022 23:03:01 -0700 (PDT)
+MIME-Version: 1.0
+From: crew ctf <crewctff@gmail.com>
+Date: Fri, 15 Apr 2022 08:02:49 +0200
+Message-ID: <CAG+6dK2LBZJeWOCXgSp_JnxShdjjkuoXpcxp3ChSLQ6dfkUjZQ@mail.gmail.com>
+Subject: Help me!
+To: zheroboy2015@yahoo.com
+Content-Type: multipart/alternative; boundary="000000000000c0332a05dcab29d2"
+Content-Length: 677
+
+--000000000000c0332a05dcab29d2
+Content-Type: text/plain; charset="UTF-8"
+
+Hey, crushed kiwi I hate this loop of college, and I need your help. Can
+you meet me at lost immediately?
+
+--000000000000c0332a05dcab29d2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span style=3D"color:rgb(29,34,40);font-family:Helvetica,A=
+rial,sans-serif;font-size:13px">Hey, crushed kiwi I hate this loop of colle=
+ge, and I need your help. Can you meet me at=C2=A0</span>lost<span style=3D=
+"color:rgb(29,34,40);font-family:Helvetica,Arial,sans-serif;font-size:13px"=
+>=C2=A0immediately?</span><br></div>
+
+--000000000000c0332a05dcab29d2--
