@@ -5,4 +5,4 @@ with open("message.txt", "r") as file:
     for c in range(len(data)):
         data[c] %= 37
 
-    print(''.join(maps[c] for c in data))
+    print(f"picoCTF{{{''.join(maps[c] for c in data)}}}")
