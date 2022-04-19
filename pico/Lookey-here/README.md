@@ -4,9 +4,7 @@ Link: https://play.picoctf.org/practice/challenge/279?originalEvent=70&page=2
 
 This challenge is about finding information in big files. The trick is to use some sort of tool for searching for strings.
 
----
-Solution:
-
+### Solution:
 Grep: `cat anthem.flag.txt |  grep picoCTF`
 
 awk: `awk '/picoCTF/ { print }' anthem.flag.txt`
