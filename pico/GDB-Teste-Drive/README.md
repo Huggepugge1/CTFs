@@ -2,7 +2,7 @@
 
 Link: https://play.picoctf.org/practice/challenge/273?originalEvent=70&page=1
 
-This challenge is about gbd debugging.
+This challenge is about gdb debugging.
 
 Solution:
 ```bash
