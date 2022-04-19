@@ -6,7 +6,9 @@ This challenge is about finding information in big files. The trick is to use so
 
 Solution:
 Grep: `cat anthem.flag.txt |  grep picoCTF`
+
 awk: `awk '/picoCTF/ { print }' anthem.flag.txt`
+
 ```python
 #!/usr/bin/env python3
 
