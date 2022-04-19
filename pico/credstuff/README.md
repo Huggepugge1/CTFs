@@ -1,5 +1,7 @@
 # Credsutuff
 
+Link: https://play.picoctf.org/practice/challenge/262?originalEvent=70&page=1
+
 This challenge was very easy. First i created a python script to find the password.
 
 ```python3
