@@ -11,5 +11,4 @@ Rightclick and click on follow TCP-stream.
 There is our flag!
 ```
 
-Flag: `picoCTF{p4ck37_5h4rk_01b0a0d6}
-
+Flag: `picoCTF{p4ck37_5h4rk_01b0a0d6}`
