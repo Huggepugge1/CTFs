@@ -3,12 +3,11 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
-#include "asm.h"
 
-#define BUFSIZE 32
+#define BUFFSIZE 64
 #define FLAGSIZE 64
 
-void win() {
+void flag() {
   char buf[FLAGSIZE];
   FILE *f = fopen("flag.txt","r");
   if (f == NULL) {
@@ -22,20 +21,16 @@ void win() {
 }
 
 void vuln(){
-  char buf[BUFSIZE];
+  char buf[BUFFSIZE];
   gets(buf);
-
-  printf("Okay, time to return... Fingers Crossed... Jumping to 0x%x\n", get_return_address());
 }
 
 int main(int argc, char **argv){
 
   setvbuf(stdout, NULL, _IONBF, 0);
-  
   gid_t gid = getegid();
   setresgid(gid, gid, gid);
-
-  puts("Please enter your string: ");
+  puts("Welcome to 64-bit. Give me a string that gets you the flag: ");
   vuln();
   return 0;
 }
