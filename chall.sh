@@ -13,13 +13,18 @@ print_help() {
 	echo "-l <arg>: Add link to challenge"
 }
 
+make_dir() {
+    dir_name=$@
+    mkdir $(echo "${dir_name// /_}" | tr '[:upper:]' '[:lower:]')
+    cd $(echo "${dir_name// /_}" | tr '[:upper:]' '[:lower:]')
+    touch README.md
+    echo "# $@" >> README.md
+}
+
 while getopts 'hm:r:l:' flag; do
   case "${flag}" in
     h) print_help ;; 
-    m) mkdir "${OPTARG}"
-       cd "${OPTARG}"
-       touch README.md ;;
-    r) echo "# ${OPTARG}" >> README.md ;;
+    r) make_dir ${OPTARG} ;;
     l) echo "" >> README.md
        echo "Link: ${OPTARG}" >> README.md ;;
     *) print_usage ;;
