@@ -12,4 +12,4 @@ $(history | cut -b 8- | tail -n$((nu+1)) | head -n$((nu)))" > get_flag.sh
 chmod +x get_flag.sh
 source ./get_flag.sh > flag.txt
 
-printf "### Flag\nFlag: \`$(cat flag.txt)\`" >> README.md
+printf "### Flag\nFlag: \`$(cat flag.txt)\`\n" >> README.md
