@@ -26,7 +26,7 @@ while getopts 'hm:r:l:' flag; do
     h) print_help ;; 
     r) make_dir ${OPTARG} ;;
     l) echo "" >> README.md
-       echo "Link: ${OPTARG}" >> README.md ;;
+       echo "Link: ${OPTARG}\n\n" >> README.md ;;
     *) print_usage ;;
   esac
 done
