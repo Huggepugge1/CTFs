@@ -15,18 +15,18 @@ print_help() {
 
 make_dir() {
     dir_name=$@
-    mkdir $(echo "${dir_name// /_}" | tr '[:upper:]' '[:lower:]')
-    cd $(echo "${dir_name// /_}" | tr '[:upper:]' '[:lower:]')
+    mkdir $(printf "${dir_name// /_}" | tr '[:upper:]' '[:lower:]')
+    cd $(printf "${dir_name// /_}" | tr '[:upper:]' '[:lower:]')
     touch README.md
-    echo "# $@" >> README.md
+    printf "# $@" >> README.md
 }
 
 while getopts 'hm:r:l:' flag; do
   case "${flag}" in
     h) print_help ;; 
     r) make_dir ${OPTARG} ;;
-    l) echo "" >> README.md
-       echo "Link: ${OPTARG}\n\n" >> README.md ;;
+    l) printf "" >> README.md
+       printf "Link: ${OPTARG}\n" >> README.md ;;
     *) print_usage ;;
   esac
 done
